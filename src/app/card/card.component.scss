@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba($color: #eeeeee, $alpha: 0.5);
+  padding: 1vh 5vw;
+  margin: 1vh 1vw;
+  border-radius: 25px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.sideCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.dailyTemp {
+  background-color: rgba($color: #eeeeee, $alpha: 0.5);
+  padding: 1vh 2vw;
+  margin: 1vh 1vw;
+  border-radius: 20px;
+}

@@ -1,0 +1,48 @@
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba($color: #eeeeee, $alpha: 0.5);
+  padding: 1vh 1vw;
+  border-radius: 25px;
+  // flex: 1;
+  overflow-y: auto;
+  height: 80vh;
+  // height:;
+}
+
+.dropdown {
+  border: none;
+  background-color: rgba($color: #eeeeee, $alpha: 0.5);
+  border-radius: 15px;
+  padding: 1em;
+}
+
+.dropOption {
+  margin-top: 1em;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba($color: #eeeeee, $alpha: 0.5);
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  border-radius: 25px;
+  height: 100px;
+}
+
+.searchInput {
+  border: none;
+  background-color: rgba($color: #eeeeee, $alpha: 0.5);
+  margin: 1vh 1vw;
+  border-radius: 15px;
+  padding: 1em;
+}

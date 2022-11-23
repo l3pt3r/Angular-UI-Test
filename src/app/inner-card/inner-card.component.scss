@@ -1,0 +1,19 @@
+.card {
+    background-color: rgba($color: #eeeeee, $alpha: 0.5);
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    border-radius: 25px;
+    // height: 25vh;
+  }
+  
+  .bottomCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
